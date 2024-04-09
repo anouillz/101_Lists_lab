@@ -12,7 +12,7 @@ class Node() {
 
 object Node extends App {
   val all:Node = new Node("Tokyo", new Node("Paris", new Node("Milan", null)))
-
+  val a: Int = 0
   val a:Node = new Node("Milan", null)
   val b:Node = new Node("Paris", a)
   val c:Node = new Node("Tokyo", b)
